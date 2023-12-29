@@ -1,0 +1,87 @@
+.helper1{
+  background-image: url("download.jpeg");
+  background-repeat: no-repeat;
+background-size: 100vw 30vh;
+}
+.helper2{
+    background-image: url("ny2.jpeg");
+
+}
+.helper3 {
+    background-image: url("images.jpeg");
+
+}
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+ body {
+     width: 100vw;
+     height: 100vh;
+     background-color: rgb(41, 41, 195);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .box {
+     width: 60vw;
+     height: 40vh;
+     background-color: chartreuse;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-evenly;
+     color: darkblue;
+     font-size: 30px;
+     font-weight: 900;
+ }
+
+ .i1 {
+     width: 40px;
+     height: 40px;
+     background-color: crimson;
+     padding: 10px;
+ }
+
+ .i2 {
+     width: 40px;
+     height: 40px;
+     background-color: crimson;
+     padding: 10px;
+ }
+
+ .i3 {
+     width: 40px;
+     height: 40px;
+     background-color: crimson;
+     padding: 10px;
+ }
+
+ .i4 {
+     width: 40px;
+     height: 40px;
+     background-color: crimson;
+     padding: 10px;
+ }
+
+ button {
+     font-size: 30px;
+     color: dodgerblue;
+     background-color: orange;
+ }
+
+ .h {
+     position: relative;
+     color: aqua;
+ }
+
+ h1 {
+     position: absolute;
+     top: -300px;
+     left: 600px;
+     font-size: 50px;
+     font-weight: 900;
+ }
